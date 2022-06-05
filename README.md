@@ -4,7 +4,7 @@ Esse projeto é o resultado de uma proposta de desafio feito pela DIO - Digital 
 Como um amante de filmes de terror eu imaginei como seria uma plataforma específica só para esse estilo, então surgiu o TerrorFlix. Um lugar para você, que assim como eu, ama filmes de terror mas sofre com a dificuldade de achar uma boa variedade de filmes bons nas plataformas de streaming.
 
 
-# Durante o desenvolvimento do projeto eu tive que:
+# Para o desenvolvimento do projeto eu tive que:
 * Ter clareza desde o início do tema que seria abordado e aonde gostaria de chegar.
 * Pensar com antecedência na estilização dos elementos de acordo com o tema escolhido.
 * Ter o cuidado para que fosse o mais responsível possível.

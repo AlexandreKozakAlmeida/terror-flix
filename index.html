@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a43ca74088.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>TerrorFlix</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">TerrorFlix</h2>
+            <nav>
+                <a href="">Início</a>
+                <a href="">FIlmes</a>
+                <a href="">Séries</a>
+                <a href="">Mais populares</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="principal-movie">
+             <div class="container">
+                 <h2 class="title">A bruxa</h2>
+                 <p class="description">Em uma fazenda no século 17, uma histeria religiosa toma conta de uma família que acusa a filha mais velha pelo desaparecimento do seu irmão ainda bebê.</p>
+                 <div class="buttons">
+                    <button class="btn" onclick="openModal('dv-modal')">
+                        <i class="fa-solid fa-play"></i> 
+                        Assistir agora
+                    </button>
+                    <button class="info-btn" onclick="openModal('inf-modal')">
+                        <i class="fa-solid fa-circle-info"></i>
+                        Mais informações</button>
+                   </div>
+             </div>
+        </div>
+      <div id="dv-modal" class="modal">
+          <div class="modal-content">
+              <video controls preload="auto" loop src="./media/bruxa-trailer.mp4"></video>
+              <button class="btn" onclick="closeModal('dv-modal')"> X </button>
+          </div>
+      </div>
+      <div id="inf-modal" class="modal">
+        <div class="modal-content">
+            <img class="inf-img" src="./images/background-image-movies/poster.jpg" alt="">
+            <button class="btn" onclick="closeModal('inf-modal')"> X </button>
+            <div class="info-container">
+                <div class="movie-info">
+                    <h5>2015 <span class="parentalRating">16</span> 1h 32min</h5>
+               <p>O casal William e Katherine leva uma vida cristã com suas cinco crianças em uma comunidade extremamente religiosa, até serem expulsos do local por sua fé diferente daquela permitida pelas autoridades. A família passa a morar num local isolado, à beira do bosque, sofrendo com a escassez de comida. Um dia, o bebê recém-nascido desaparece. Enquanto buscam respostas, cada membro da família descobre seus piores medos.</p>
+                </div>
+                <div class="cast">
+                    <p>
+                        <span>Elenco:</span> anya taylor-joy, ralph ineson, kate dickle, mais
+                    </p>
+                    <p>
+                        <span>Gêneros:</span> filmes de terror, filmes independentes
+                    </p>
+                    <p>
+                        <span>cenas e momentos:</span>
+                        arrepiantes, sinistros
+                    </p>
+                </div>
+            </div>
+        </div>
+       
+    </main>
+
+    
+
+    <div class="carousel-movies">
+        <div class="carousel">
+            <div class="item">
+                <img class="box-movie" src="./images/image-movies/terrifier.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="./images/image-movies/babadook.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="./images/image-movies/fenomenos-paranormais.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="./images/image-movies/halloween.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="./images/image-movies/campo-do-medo.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="./images/image-movies/it.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="./images/image-movies/olhos-julia.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="./images/image-movies/orfa.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="./images/image-movies/maus.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="./images/image-movies/filho-das-trevas.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+ <script src="./script.js"></script>
+</body>
+</html>

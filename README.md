@@ -3,6 +3,16 @@
 Esse projeto é o resultado de uma proposta de desafio feito pela DIO - Digital Inovation One. O desafio original é criar uma página que tivesse a mesma idéia da Netflix, ao final do projeto foi proposto que o projeto fosse modificado ao nosso gosto. 
 Como um amante de filmes de terror eu imaginei como seria uma plataforma específica só para esse estilo, então surgiu o TerrorFlix. Um lugar para você, que assim como eu, ama filmes de terror mas sofre com a dificuldade de achar uma boa variedade de filmes bons nas plataformas de streaming.
 
+
+# Durante o desenvolvimento do projeto eu tive que:
+* Ter clareza desde o início do tema que seria abordado e aonde gostaria de chegar.
+* Pensar com antecedência na estilização dos elementos de acordo com o tema escolhido.
+* Ter o cuidado para que fosse o mais responsível possível.
+* Deixar a navegação pelo projeto o menos complexo possível.
+* Buscar ir além e ter novas idéias para entregar mais do que foi pedido.
+* Buscar resoluções de problemas que eu não sabia resolver até então.
+
+
  ## Tecnologias usadas :
 * HTML
 * CSS

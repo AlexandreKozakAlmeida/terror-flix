@@ -27,5 +27,9 @@ Como um amante de filmes de terror eu imaginei como seria uma plataforma especí
 ## Próximos passos do projeto:
 * Criar um modal personalizado para cada filme que já está presente no carousel para apresentação de informações do mesmo.
 * Criar uma página inicial onde ficarão vários outros filmes.
+* Criar uma checklist de filmes já assistidos.
+* Criar uma lista de filmes ainda não vistos.
+* Uma lista de sugestão de séries que será aberta ao clicar em "Séries".
+* Uma lista de filmes/séries mais vistas que será aberta ao clicar em "Mais populares".
 
 
